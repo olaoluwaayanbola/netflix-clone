@@ -1,40 +1,39 @@
-.List{
-    width: 100vw;
-    margin-top: 10px;
-    .Title{
-        font-weight: 700;
-        font-size: 24px;
-        color: whitesmoke;
-        margin-left: 50px;
+.List {
+  width: 100vw;
+  margin-top: 10px;
+  .Title {
+    font-weight: 700;
+    font-size: 24px;
+    color: whitesmoke;
+    margin-left: 50px;
+  }
+  .wrapper {
+    position: relative;
+    .mini-container {
+      display: flex;
+      width: max-content;
+      margin-left: 50px;
+      margin-top: 10px;
+      transform: translateX(0px);
+      transition: all 1s ease;
     }
-    .wrapper{
-        position: relative;
-        .mini-container{
-            display: flex;
-            width:max-content;
-            margin-left: 50px;
-            margin-top: 10px;
-            transform: translateX(0px);
-            transition:all 1s ease;
-        }
-        .slider{
-            height: 100%;
-            width: 50px;
-            color: rgb(200, 49, 49);
-            position: absolute;
-            background-color: rgba(0,0,0,0.4);
-            top: 0;
-            bottom: 0;
-            z-index: 50;
-            cursor: pointer;
-            &.right{
-               right: 0;
-            }
-            &.left{
-                left: 0;
-                margin-left: 10px;
-            }
-        }
+    .slider {
+      height: 100%;
+      width: 50px;
+      color: rgb(200, 49, 49);
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.4);
+      top: 0;
+      bottom: 0;
+      z-index: 50;
+      cursor: pointer;
+      &.right {
+        right: 0;
+      }
+      &.left {
+        left: 0;
+        margin-left: 10px;
+      }
     }
-    
+  }
 }

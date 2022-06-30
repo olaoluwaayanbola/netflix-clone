@@ -1,73 +1,73 @@
-$white:whitesmoke;
+$white: whitesmoke;
 
-.Conatianer{
-    height:90vh;
-    width: 100%;
-    background-color: aqua;
-    .dynamic{
-        position: absolute;
-        top: 80px;
-        left: 50px;
-        font-size: 30px;
-        font-weight: 500;
-        color:$white;
+.Conatianer {
+  height: 90vh;
+  width: 100%;
+  background-color: aqua;
+  .dynamic {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    color: $white;
+    display: flex;
+    align-items: center;
+  }
+  select {
+    display: flex;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+    padding: 5px;
+    color: $white;
+    background-color: black;
+    cursor: pointer;
+    option {
+      cursor: pointer;
+    }
+  }
+  img {
+    object-fit: cover;
+  }
+  .detail {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 30%;
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+    color: $white;
+    img {
+      width: 290px;
+    }
+    .buttons {
+      display: flex;
+      margin-top: 15px;
+      button {
         display: flex;
         align-items: center;
-    }
-    select{
-        display: flex;
+        justify-content: center;
+        margin-right: 10px;
+        padding: 5px 8px;
         border: none;
-        border-radius: 3px;
-        margin-left: 10px;
-        padding: 5px;
-        color:$white;
-        background-color:black;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 17px;
         cursor: pointer;
-        option{
-            cursor: pointer;
+        &.play {
+          background-color: white;
+          color: gray;
         }
+        &.moreinfo {
+          background-color: gray;
+          color: white;
+        }
+      }
     }
-    img{
-        object-fit:cover
+    .desc {
+      margin: 20px 0px;
     }
-    .detail{
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        width: 30%;
-        position: absolute;
-        left: 50px;
-        bottom: 100px;
-        color: $white;
-        img{
-            width: 290px;
-        }
-        .buttons{
-            display: flex;
-            margin-top: 15px;
-            button{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                margin-right: 10px; 
-                padding: 5px 8px;
-                border: none;
-                border-radius: 5px;
-                font-weight: 500;
-                font-size: 17px;
-                cursor: pointer;
-                &.play{
-                    background-color: white;
-                    color:gray;   
-                }
-                &.moreinfo{
-                    background-color: gray;
-                    color: white;
-                }
-            }
-        }
-        .desc{
-            margin: 20px 0px;
-        }
-    }
+  }
 }
