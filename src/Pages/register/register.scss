@@ -9,7 +9,6 @@
     url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
   background-size: cover;
   position: relative;
-
   .top {
     .wrapper {
       padding: 20px 50px;
@@ -19,21 +18,21 @@
 
       .logo {
         height: 40px;
+        width: 15%;
       }
-
-      .loginButton {
-        background-color: red;
+      button{
+        cursor: pointer;
+        text-decoration: none;
+        background-color: rgb(230, 23, 23);
         border: none;
         color: white;
         border-radius: 5px;
         padding: 5px 15px;
         font-size: 16px;
         font-weight: 500;
-        cursor: pointer;
       }
     }
   }
-
   .container {
     width: 100%;
     height: 100%;
@@ -45,7 +44,6 @@
     align-items: center;
     justify-content: center;
     color: white;
-
     h1 {
       font-size: 50px;
     }
@@ -53,11 +51,9 @@
     h2 {
       margin: 20px;
     }
-
     p {
       font-size: 20px;
     }
-
     .input {
       width: 50%;
       background-color: white;
@@ -67,22 +63,20 @@
       margin-top: 20px;
       height: 50px;
       border-radius: 5px;
-
-      input{
-          flex: 9;
-          height: 100%;
-          border: none;
-          padding: 0 10px;
+      input {
+        flex: 9;
+        height: 100%;
+        border: none;
+        padding: 0 10px;
       }
-
-      .registerButton{
-          flex: 3;
-          height: 100%;
-          background-color: red;
-          border: none;
-          color: white;
-          font-size: 22px;
-          cursor: pointer;
+      .registerButton {
+        flex: 3;
+        height: 100%;
+        background-color: red;
+        border: none;
+        color: white;
+        font-size: 22px;
+        cursor: pointer;
       }
     }
   }

@@ -55,6 +55,10 @@ $Black: whitesmoke;
           background-color: rgba(0, 0, 0, 0.4);
           color: rgb(255, 255, 255);
           font-weight: 500;
+          .Link{
+            text-decoration: none;
+            color: white;
+          }
           span {
             cursor: pointer;
           }

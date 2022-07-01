@@ -3,7 +3,7 @@ import "../Styles/NavBar.scss";
 import SearchSharpIcon from "@mui/icons-material/SearchSharp";
 import NotificationsSharpIcon from "@mui/icons-material/NotificationsSharp";
 import ArrowDropDownSharpIcon from "@mui/icons-material/ArrowDropDownSharp";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 const NavBar = () => {
   const [state, setState] = useState(true);
   window.onscroll = () => {
@@ -36,14 +36,18 @@ const NavBar = () => {
           <span>Kids</span>
           <NotificationsSharpIcon className="icon-right"></NotificationsSharpIcon>
           <img
-            src="https://cdn.kibrispdr.org/data/download-wallpaper-hd-iphone-7.jpg"
+            src="https://c4.wallpaperflare.com/wallpaper/661/730/363/hero-artwork-super-mario-bros-mario-character-wallpaper-preview.jpg"
             alt="Profile "
           ></img>
           <div className="ProfileContainer">
             <ArrowDropDownSharpIcon className="icon-right search"></ArrowDropDownSharpIcon>
             <div className="Menue">
-              <span className="profile">Profile</span>
-              <span className="logOut">Log Out</span>
+              <NavLink to="/" className="Link">
+                <span className="profile">Profile</span>
+              </NavLink>
+              <NavLink to="Login"  className="Link">
+                <span className="logOut">Log Out</span>
+              </NavLink>
             </div>
           </div>
         </div>

@@ -56,12 +56,14 @@
           color: lightgray;
         }
       }
-
+      .Link{
+        text-decoration: none;
+        color: white;
+      }
       button {
         height: 40px;
         border-radius: 5px;
         background-color: red;
-        color: white;
         border: none;
         font-size: 18px;
         font-weight: 500;
@@ -71,7 +73,7 @@
       span {
         color: rgb(178, 173, 173);
         b {
-          color: rgb(241, 240, 240);
+          color: rgb(178, 173, 173);
         }
       }
     }
