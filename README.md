@@ -1,6 +1,6 @@
 ## Personal Portfolio
 
-### [Live Site](https://jsmasterypro.com)
+### [Live Site](https://netflixclone-one.netlify.app/)
 
 ![Portfolio Website](/public/netflix.png)
 
