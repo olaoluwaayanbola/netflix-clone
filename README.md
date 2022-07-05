@@ -3,10 +3,7 @@
 ### [Live Site](https://netflixclone-one.netlify.app/)
                 
 
-![Portfolio Website]
-(/public/netflix.png)
-(/public/net2.png)
-(/public/net3.png)
+![Portfolio Website](/public/netflix.png)(/public/net2.png)(/public/net3.png)
 
 This is the Netflix-clone code repository
 
