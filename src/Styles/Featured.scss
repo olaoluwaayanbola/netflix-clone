@@ -34,13 +34,13 @@ $white: whitesmoke;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    width: 30%;
     position: absolute;
     left: 50px;
     bottom: 100px;
     color: $white;
     img {
       width: 290px;
+      flex:1;
     }
     .buttons {
       display: flex;
@@ -68,6 +68,23 @@ $white: whitesmoke;
     }
     .desc {
       margin: 20px 0px;
+    }
+  }
+}
+@media screen and (max-width:"600px") {
+  .Conatianer{
+    .detail{
+      img{
+        padding-top: 100px;
+        width: 150px;
+      }
+      .buttons {
+        margin-top: 0;
+      }
+      .desc {
+        width: 80%;
+        margin: 10px 0px;
+      }
     }
   }
 }
