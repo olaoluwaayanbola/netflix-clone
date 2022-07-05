@@ -45,7 +45,7 @@ const NavBar = () => {
               <NavLink to="/" className="Link">
                 <span className="profile">Profile</span>
               </NavLink>
-              <NavLink to="Login"  className="Link">
+              <NavLink to="Login" className="Link">
                 <span className="logOut">Log Out</span>
               </NavLink>
             </div>
